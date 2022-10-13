@@ -11,4 +11,4 @@ Scenario: sign up in the system
 Scenario: Submit the sign up form 
     Given the user filled in the registration form
     When the user submits the sign up form
-    Then the user should be registered successfuly
+    Then the user should be redirected to his dashboard 
