@@ -1,5 +1,9 @@
 Feature: Sign up in the system
 
+Scenario: navigating to the sign up form
+    Given the user is on the homepage
+    Then the user should see signup or sign in options
+    
 Scenario: sign up in the system
     Given the user is on the signup page 
     Then the user should be able to enter his email
